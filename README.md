@@ -34,12 +34,11 @@
 
     - I began by examining the first and last rows of the dataset to get an initial sense of its structure.
     - I created a scatterplot matrix (pairplot) and a correlation matrix heatmap to visualize data distributions and identify relationships between variables.
-    - To assess multicollinearity, I calculated Variance Inflation Factors (VIF).
+    - To assess multicollinearity among independent variables, I calculated Variance Inflation Factors (VIF).
 
 3. <ins>Data Preprocessing:
 
     - I divided the dataset into features (independent variables) and labels (the dependent variable).
-    - I calculated VIF scores to detect multicollinearity among independent variables.
 
 4. <ins>Model Building:
 
