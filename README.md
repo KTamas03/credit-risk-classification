@@ -66,7 +66,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
 **Resource File I Used:**
   - lending_data.csv
 
-**My Jupyter Notebook Python Cleaning Script:**
+**My Jupyter Notebook Python Script:**
   - credit_risk_classification.ipynb
 
 **Tools/Libraries I Imported:**
