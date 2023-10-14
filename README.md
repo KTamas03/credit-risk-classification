@@ -27,7 +27,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
   
 **Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset likely contains various financial and credit-related information about borrowers, such as income, credit scores, loan amount, and more. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy or high-risk.
   
-**Machine Learning Stages:** Here are the stages I went through in this analysis:
+**Machine Learning Stages:**
 
 1. Data Loading:
    
