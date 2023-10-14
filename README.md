@@ -23,13 +23,44 @@ In this scenario, I employed Python and supervised machine learning techniques w
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+**Purpose of the analysis:** My goal in this analysis was to create a machine learning model to predict the creditworthiness of borrowers. I aimed to assess whether a borrower's loan should be categorized as "Healthy Loan" or "High-Risk Loan" based on the available financial information.
+  
+**Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset likely contains various financial and credit-related information about borrowers, such as income, credit scores, loan amount, and more. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy or high-risk.
+  
+**Machine Learning Stages:** Here are the stages I went through in this analysis:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+1. Data Loading:
+- I started by importing the necessary libraries and loading the lending data from the CSV file into a Pandas DataFrame.
+
+3. Exploratory Data Analysis (EDA):
+
+- I began by examining the first and last rows of the dataset to get an initial sense of its structure.
+- I created a scatterplot matrix (pairplot) and a correlation matrix heatmap to visualize data distributions and identify relationships between variables.
+- To assess multicollinearity, I calculated Variance Inflation Factors (VIF).
+
+3. Data Preprocessing:
+
+- I divided the dataset into features (independent variables) and labels (the dependent variable).
+- I calculated VIF scores to detect multicollinearity among independent variables.
+
+4. Model Building:
+
+- I split the data into training and testing sets using train_test_split.
+- I instantiated a logistic regression model and trained it using the training data.
+  
+5. Model Evaluation:
+
+I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, recall, and F1-score.
+The confusion matrix provided counts of true positives, true negatives, false positives, and false negatives.
+The classification report displayed precision, recall, F1-score, and support for each class (healthy and high-risk loans).
+
+
+**Methods Used:**
+
+- I used a logistic regression model for binary classification of loans.
+- To identify multicollinearity, I calculated Variance Inflation Factor (VIF) scores.
+- I split the dataset into training and testing sets.
+- Model evaluation was performed using a confusion matrix and a classification report.
 
 **Resource File I Used:**
   - lending_data.csv
@@ -50,8 +81,6 @@ In this section, describe the analysis you completed for the machine learning mo
   - from statsmodels.stats.outliers_influence import variance_inflation_factor # To test for multicolinearity in independant variables
 
 ## Results
-
- 
 
 **1. Scatterplot Matrix:**
 The charts below visually indicate a high correlation between most of the independent variables in the lending_df dataframe.
@@ -85,7 +114,6 @@ Furthermore, the precision score for high-risk loans stands at 0.85, indicating 
 In addition, the recall score for high-risk loans is 0.91, signifying that the model correctly identifies 91% of the actual high-risk loans. This metric, also known as sensitivity, gauges the model's capability to avoid false negatives. It quantifies how many of the true positive cases (high-risk loans) the model successfully predicted.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/20539208-e730-478c-82cf-16d30a4fb3c1)
-
 
 
 
