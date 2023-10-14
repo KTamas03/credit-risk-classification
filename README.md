@@ -31,28 +31,6 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
-
-## Summary
-
-Overall, the logistic regression model appears to perform well in predicting both healthy loans and high-risk loans. The precision for high-risk loans is 0.85, indicating that the model makes fewer false positive predictions for high-risk loans. The recall for high-risk loans is 0.91, suggesting that the model effectively captures a significant proportion of high-risk loans. The accuracy of the model is 0.99, showing that the overall model has high accuracy for predicting both healthy and high-risk loans.
-
-However, when looking at the correlation coefficient and the VIF scores, there is evidence of multicollinearity among at least two or more of the independent variables. As mentioned earlier, this leads to challenges in calculating the coefficients for each independent variable and accurately assessing their impact on the dependent variable, along with the potential for overfitting. Some suggestions to potentially improve the model include:
-
-  - Removing one or more of the highly correlated variables.
-  - Combining correlated variables to create composite variables.
-  - Acquiring more data to better distinguish the relationships between the variables.
-
 **Resource File I Used:**
   - lending_data.csv
 
@@ -71,6 +49,37 @@ However, when looking at the correlation coefficient and the VIF scores, there i
   - from scipy import stats # To calculate the Pearson correlation coefficient
   - from statsmodels.stats.outliers_influence import variance_inflation_factor # To test for multicolinearity in independant variables
 
+## Results
+
+Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+
+**Scatterplot Matrix:**
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
+
+**Correlation Matrix Heatmap:**
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a6b4bc24-0481-4536-98dd-b9a100a58185)
+
+**Variation Inflation Factor Values:**
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0de49276-1984-4198-8357-e49246b1f907)
+
+**Confusion Matrix:**
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
+
+**Classification Report:**
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/20539208-e730-478c-82cf-16d30a4fb3c1)
+
+
+
+
+## Summary
+
+Overall, the logistic regression model appears to perform well in predicting both healthy loans and high-risk loans. The precision for high-risk loans is 0.85, indicating that the model makes fewer false positive predictions for high-risk loans. The recall for high-risk loans is 0.91, suggesting that the model effectively captures a significant proportion of high-risk loans. The accuracy of the model is 0.99, showing that the overall model has high accuracy for predicting both healthy and high-risk loans.
+
+However, when looking at the correlation coefficient and the VIF scores, there is evidence of multicollinearity among at least two or more of the independent variables. As mentioned earlier, this leads to challenges in calculating the coefficients for each independent variable and accurately assessing their impact on the dependent variable, along with the potential for overfitting. Some suggestions to potentially improve the model include:
+
+  - Removing one or more of the highly correlated variables.
+  - Combining correlated variables to create composite variables.
+  - Acquiring more data to better distinguish the relationships between the variables.
 
 ## Getting Started
 
