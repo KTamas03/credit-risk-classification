@@ -59,19 +59,21 @@ The charts below visually indicate a high correlation between most of the indepe
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
 
 
-
 **2. Correlation Matrix Heatmap:**
+The matrix below once again reveals a very high correlation between the independent variables, as indicated by the predominantly high Pearson correlation coefficient values, most of which are over 0.80. This suggests the presence of multicollinearity within the lending_df dataframe.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a6b4bc24-0481-4536-98dd-b9a100a58185)
-The matrix above once again reveals a very high correlation between the independent variables, as indicated by the predominantly high Pearson correlation coefficient values, most of which are over 0.80. This suggests the presence of multicollinearity within the lending_df dataframe.
+
 
 **3. Variation Inflation Factor Values:**
+The extremely high VIF values (any score exceeding 5) indicate the presence of multicollinearity within the lending_df dataframe. This implies that accurately determining the coefficients for each independent variable and their true impact on the dependent variable will be challenging. Additionally, there is potential for overfitting, meaning the model may capture noise in the data due to highly correlated variables, rather than the genuine underlying relationships.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0de49276-1984-4198-8357-e49246b1f907)
 
 **4. Confusion Matrix:**
-
+The confusion matrix shows that model has correctly predicted the vast majority of healthy loans in the datase (18663). The model has also correctly predicted 563 high risk loans.  There were 102 false positives, ie. where the model incorrectly predicted high-risk loans that were actually healthy loans, and there were 56 false negatives, ie. where the model incorrectly predicted healthy loans that were actually high-risk loans.
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
+![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/bf057b41-ef1c-49fa-b11e-a846efc05ba4)
 
 **5. Classification Report:**
 
