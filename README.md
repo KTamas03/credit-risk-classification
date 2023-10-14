@@ -29,7 +29,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
   
 **Machine Learning Stages:**
 
-<ins>1. Data Loading:<\ins>
+<ins>1. Data Loading:
    
     - I started by importing the necessary libraries and loading the lending data from the CSV file into a Pandas DataFrame.
 
