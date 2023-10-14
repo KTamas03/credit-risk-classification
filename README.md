@@ -78,6 +78,11 @@ The confusion matrix shows that the model correctly predicted the vast majority 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/bf057b41-ef1c-49fa-b11e-a846efc05ba4)
 
 **5. Classification Report:**
+In this classification report, the accuracy score of 0.99 signifies that the model's predictions are correct 99% of the time. Accuracy measures the overall correctness of the model's predictions, encompassing both true positives and true negatives.
+
+Furthermore, the precision score for high-risk loans stands at 0.85, indicating that 85% of the loans predicted as high-risk are indeed high-risk loans. This metric reflects the model's proficiency in avoiding false positive errors. Precision assesses how accurately the model identifies positive class predictions (e.g., high-risk loans).
+
+In addition, the recall score for high-risk loans is 0.91, signifying that the model correctly identifies 91% of the actual high-risk loans. This metric, also known as sensitivity, gauges the model's capability to avoid false negatives. It quantifies how many of the true positive cases (high-risk loans) the model successfully predicted.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/20539208-e730-478c-82cf-16d30a4fb3c1)
 
