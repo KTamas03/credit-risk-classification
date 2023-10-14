@@ -51,25 +51,28 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+ 
 
-**Scatterplot Matrix:**
+**1. Scatterplot Matrix:**
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
+The charts above visually indicate a high correlation between most of the independent variables in the lending_df.
 
-**Correlation Matrix Heatmap:**
+
+**2. Correlation Matrix Heatmap:**
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a6b4bc24-0481-4536-98dd-b9a100a58185)
+The matrix above once again reveals a very high correlation between the independent variables, as indicated by the predominantly high Pearson correlation coefficient values, most of which are over 0.80. This suggests the presence of multicollinearity within the lending_df dataframe.
 
-**Variation Inflation Factor Values:**
+**3. Variation Inflation Factor Values:**
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0de49276-1984-4198-8357-e49246b1f907)
 
-**Confusion Matrix:**
+**4. Confusion Matrix:**
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
 
-**Classification Report:**
+**5. Classification Report:**
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/20539208-e730-478c-82cf-16d30a4fb3c1)
 
