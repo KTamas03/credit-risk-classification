@@ -48,6 +48,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 Overall, the logistic regression model appears to perform well in predicting both healthy loans and high-risk loans. The precision for high-risk loans is 0.85, indicating that the model makes fewer false positive predictions for high-risk loans. The recall for high-risk loans is 0.91, suggesting that the model effectively captures a significant proportion of high-risk loans. The accuracy of the model is 0.99, showing that the overall model has high accuracy for predicting both healthy and high-risk loans.
 
 However, when looking at the correlation coefficient and the VIF scores, there is evidence of multicollinearity among at least two or more of the independent variables. As mentioned earlier, this leads to challenges in calculating the coefficients for each independent variable and accurately assessing their impact on the dependent variable, along with the potential for overfitting. Some suggestions to potentially improve the model include:
+
     - Removing one or more of the highly correlated variables.
     - Combining correlated variables to create composite variables.
     - Acquiring more data to better distinguish the relationships between the variables.
