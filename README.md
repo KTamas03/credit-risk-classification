@@ -54,9 +54,10 @@ In this section, describe the analysis you completed for the machine learning mo
  
 
 **1. Scatterplot Matrix:**
+The charts below visually indicate a high correlation between most of the independent variables in the lending_df.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
-The charts above visually indicate a high correlation between most of the independent variables in the lending_df.
+
 
 
 **2. Correlation Matrix Heatmap:**
