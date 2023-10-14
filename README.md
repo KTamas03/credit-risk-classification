@@ -54,7 +54,7 @@ In this section, describe the analysis you completed for the machine learning mo
  
 
 **1. Scatterplot Matrix:**
-The charts below visually indicate a high correlation between most of the independent variables in the lending_df.
+The charts below visually indicate a high correlation between most of the independent variables in the lending_df dataframe.
 
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
 
@@ -71,7 +71,7 @@ The extremely high VIF values (any score exceeding 5) indicate the presence of m
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0de49276-1984-4198-8357-e49246b1f907)
 
 **4. Confusion Matrix:**
-The confusion matrix shows that model has correctly predicted the vast majority of healthy loans in the datase (18663). The model has also correctly predicted 563 high risk loans.  There were 102 false positives, ie. where the model incorrectly predicted high-risk loans that were actually healthy loans, and there were 56 false negatives, ie. where the model incorrectly predicted healthy loans that were actually high-risk loans.
+The confusion matrix shows that the model correctly predicted the vast majority of healthy loans in the dataset (18663). The model also accurately predicted 563 high-risk loans. However, there were 102 false positives, meaning the model incorrectly predicted high-risk loans that were actually healthy loans. Additionally, there were 56 false negatives, indicating cases where the model incorrectly predicted healthy loans that were actually high-risk loans.
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/bf057b41-ef1c-49fa-b11e-a846efc05ba4)
 
