@@ -54,18 +54,23 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 **Scatterplot Matrix:**
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0289d6f7-abc5-4a1c-9bdb-5f4a6d72d916)
 
 **Correlation Matrix Heatmap:**
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a6b4bc24-0481-4536-98dd-b9a100a58185)
 
 **Variation Inflation Factor Values:**
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/0de49276-1984-4198-8357-e49246b1f907)
 
 **Confusion Matrix:**
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
 
 **Classification Report:**
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/20539208-e730-478c-82cf-16d30a4fb3c1)
 
 
