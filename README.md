@@ -1,9 +1,6 @@
 ## credit-risk-classification
 **Module 20 Challenge - Supervised Machine Learning**
 
-In this scenario, I employed Python and supervised machine learning techniques within a Jupyter Notebook to develop a logistic regression model. This model was trained to assess the creditworthiness of borrowers.
-
-
 **Repository Folders and Contents:**
 - Credit_Risk:
   - Resources:
@@ -23,7 +20,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
 
 ## Overview of the Analysis
 
-**Purpose of the analysis:** My goal in this analysis was to create a machine learning model to predict the creditworthiness of borrowers. I aimed to assess whether a borrower's loan should be categorized as "Healthy Loan" or "High-Risk Loan" based on the available financial information.
+**Purpose of the analysis:** In this scenario, I employed python and supervised machine learning techniques within a Jupyter Notebook to develop a logistic regression model to predict the creditworthiness of borrowers. I aimed to assess whether a borrower's loan should be categorized as a "Healthy Loan" or a "High-Risk Loan" based on the available financial information.
   
 **Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset contained various financial and credit-related information about borrowers, which included loan size, interest rate, debt to income ratio, number of accounts, derogatory marks, total debt and loan status. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy (0) or high-risk (1).
   
@@ -51,14 +48,10 @@ In this scenario, I employed Python and supervised machine learning techniques w
   
 5. <ins>Model Evaluation:
 
-    - I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, recall, and F1-score.
+    - I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, and recall.
     - The confusion matrix provided counts of true positives, true negatives, false positives, and false negatives.
     - The classification report displayed precision, recall, F1-score, and support for each class (healthy and high-risk loans).
 
-
-**Methods Used:**
-
-  - I used a logistic regression model for binary classification of loans.
 
 **Resource File I Used:**
   - lending_data.csv
