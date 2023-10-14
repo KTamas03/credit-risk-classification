@@ -72,6 +72,7 @@ The extremely high VIF values (any score exceeding 5) indicate the presence of m
 
 **4. Confusion Matrix:**
 The confusion matrix shows that the model correctly predicted the vast majority of healthy loans in the dataset (18663). The model also accurately predicted 563 high-risk loans. However, there were 102 false positives, meaning the model incorrectly predicted high-risk loans that were actually healthy loans. Additionally, there were 56 false negatives, indicating cases where the model incorrectly predicted healthy loans that were actually high-risk loans.
+
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/a89e9d09-d928-42df-bac7-2e7c0141968a)
 ![image](https://github.com/KTamas03/credit-risk-classification/assets/132874272/bf057b41-ef1c-49fa-b11e-a846efc05ba4)
 
