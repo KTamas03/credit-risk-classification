@@ -25,7 +25,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
 
 **Purpose of the analysis:** My goal in this analysis was to create a machine learning model to predict the creditworthiness of borrowers. I aimed to assess whether a borrower's loan should be categorized as "Healthy Loan" or "High-Risk Loan" based on the available financial information.
   
-**Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset contained various financial and credit-related information about borrowers, such as loan size, interest rate, debt to income ratio, number of accounts, derogatory marks, total debt and loan status. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy (0) or high-risk (1).
+**Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset contained various financial and credit-related information about borrowers, which included loan size, interest rate, debt to income ratio, number of accounts, derogatory marks, total debt and loan status. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy (0) or high-risk (1).
   
 **Machine Learning Stages:**
 
@@ -59,9 +59,6 @@ In this scenario, I employed Python and supervised machine learning techniques w
 **Methods Used:**
 
   - I used a logistic regression model for binary classification of loans.
-  - To identify multicollinearity, I calculated Variance Inflation Factor (VIF) scores.
-  - I split the dataset into training and testing sets.
-  - Model evaluation was performed using a confusion matrix and a classification report.
 
 **Resource File I Used:**
   - lending_data.csv
