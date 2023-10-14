@@ -30,37 +30,38 @@ In this scenario, I employed Python and supervised machine learning techniques w
 **Machine Learning Stages:** Here are the stages I went through in this analysis:
 
 1. Data Loading:
-- I started by importing the necessary libraries and loading the lending data from the CSV file into a Pandas DataFrame.
+   
+  - I started by importing the necessary libraries and loading the lending data from the CSV file into a Pandas DataFrame.
 
-3. Exploratory Data Analysis (EDA):
+2. Exploratory Data Analysis (EDA):
 
-- I began by examining the first and last rows of the dataset to get an initial sense of its structure.
-- I created a scatterplot matrix (pairplot) and a correlation matrix heatmap to visualize data distributions and identify relationships between variables.
-- To assess multicollinearity, I calculated Variance Inflation Factors (VIF).
+  - I began by examining the first and last rows of the dataset to get an initial sense of its structure.
+  - I created a scatterplot matrix (pairplot) and a correlation matrix heatmap to visualize data distributions and identify relationships between variables.
+  - To assess multicollinearity, I calculated Variance Inflation Factors (VIF).
 
 3. Data Preprocessing:
 
-- I divided the dataset into features (independent variables) and labels (the dependent variable).
-- I calculated VIF scores to detect multicollinearity among independent variables.
+  - I divided the dataset into features (independent variables) and labels (the dependent variable).
+  - I calculated VIF scores to detect multicollinearity among independent variables.
 
 4. Model Building:
 
-- I split the data into training and testing sets using train_test_split.
-- I instantiated a logistic regression model and trained it using the training data.
+  - I split the data into training and testing sets using train_test_split.
+  - I instantiated a logistic regression model and trained it using the training data.
   
 5. Model Evaluation:
 
-I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, recall, and F1-score.
-The confusion matrix provided counts of true positives, true negatives, false positives, and false negatives.
-The classification report displayed precision, recall, F1-score, and support for each class (healthy and high-risk loans).
+  - I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, recall, and F1-score.
+  - The confusion matrix provided counts of true positives, true negatives, false positives, and false negatives.
+  - The classification report displayed precision, recall, F1-score, and support for each class (healthy and high-risk loans).
 
 
 **Methods Used:**
 
-- I used a logistic regression model for binary classification of loans.
-- To identify multicollinearity, I calculated Variance Inflation Factor (VIF) scores.
-- I split the dataset into training and testing sets.
-- Model evaluation was performed using a confusion matrix and a classification report.
+  - I used a logistic regression model for binary classification of loans.
+  - To identify multicollinearity, I calculated Variance Inflation Factor (VIF) scores.
+  - I split the dataset into training and testing sets.
+  - Model evaluation was performed using a confusion matrix and a classification report.
 
 **Resource File I Used:**
   - lending_data.csv
