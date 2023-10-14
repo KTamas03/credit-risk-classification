@@ -25,7 +25,7 @@ In this scenario, I employed Python and supervised machine learning techniques w
 
 **Purpose of the analysis:** My goal in this analysis was to create a machine learning model to predict the creditworthiness of borrowers. I aimed to assess whether a borrower's loan should be categorized as "Healthy Loan" or "High-Risk Loan" based on the available financial information.
   
-**Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset likely contains various financial and credit-related information about borrowers, such as income, credit scores, loan amount, and more. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy or high-risk.
+**Data Used:** I worked with a dataset contained in the "lending_data.csv" file, located in the "Resources" folder. This dataset contained various financial and credit-related information about borrowers, such as income, debt, loan size, etc. The target variable I wanted to predict was "loan_status," which is binary and indicates whether a loan is healthy or high-risk.
   
 **Machine Learning Stages:**
 
