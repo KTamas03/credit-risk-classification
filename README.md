@@ -33,23 +33,23 @@ In this scenario, I employed Python and supervised machine learning techniques w
    
     - I started by importing the necessary libraries and loading the lending data from the CSV file into a Pandas DataFrame.
 
-2. Exploratory Data Analysis (EDA):
+2. <ins>Exploratory Data Analysis (EDA):
 
     - I began by examining the first and last rows of the dataset to get an initial sense of its structure.
     - I created a scatterplot matrix (pairplot) and a correlation matrix heatmap to visualize data distributions and identify relationships between variables.
     - To assess multicollinearity, I calculated Variance Inflation Factors (VIF).
 
-3. Data Preprocessing:
+3. <ins>Data Preprocessing:
 
     - I divided the dataset into features (independent variables) and labels (the dependent variable).
     - I calculated VIF scores to detect multicollinearity among independent variables.
 
-4. Model Building:
+4. <ins>Model Building:
 
     - I split the data into training and testing sets using train_test_split.
     - I instantiated a logistic regression model and trained it using the training data.
   
-5. Model Evaluation:
+5. <ins>Model Evaluation:
 
     - I assessed the model's performance using a confusion matrix, classification report, and various metrics, including accuracy, precision, recall, and F1-score.
     - The confusion matrix provided counts of true positives, true negatives, false positives, and false negatives.
